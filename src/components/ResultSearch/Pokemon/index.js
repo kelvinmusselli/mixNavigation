@@ -20,8 +20,8 @@ const Pokemon = ({ pokemon }) => {
           <PhotoPokemon source={{ uri: pokemon.sprites.front_default }} />
           <NamePokemon
             onPress={() =>
-              navigation.navigate('AllOfPokemon', {
-                screen: `AllOfPokemon`,
+              navigation.navigate('Sobre', {
+                screen: `Sobre`,
                 params: { pokemon },
               })
             }
